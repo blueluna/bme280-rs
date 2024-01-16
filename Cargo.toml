@@ -13,11 +13,11 @@ edition = "2018"
 name = "bme280"
 
 [dependencies]
-embedded-hal = "=1.0.0-rc.3"
+embedded-hal = "=1.0.0-rc.2"
 serde = { version = "1.0", optional = true, features = ["derive"] }
 defmt = { version = "0.3.2", optional = true }
 derive_more = { version = "0.99.17", optional = true}
-embedded-hal-async = { version = "=1.0.0-rc.3", optional = true }
+embedded-hal-async = { version = "=1.0.0-rc.2", optional = true }
 maybe-async-cfg = "0.2.3"
 
 [dev-dependencies]
@@ -29,7 +29,7 @@ panic-semihosting = "0.6"
 
 [dev-dependencies.stm32f4xx-hal]
 git = "https://github.com/stm32-rs/stm32f4xx-hal" 
-rev = "f848188afb83f4f93af96d1fd3a4174ced5eb488"
+rev = "83acfd1e3677e98b39b37004abe50cb387d5c827"
 features = ["stm32f411"]
 
 [features]
